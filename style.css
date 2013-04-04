@@ -1,22 +1,37 @@
 /*Hello RampUp folks, this is my code. Hope you like it!**/
 
 
-h1 {
+h1 { 
 	
 
 } 
 
-h2 {
+blockquote {
 	
 
 }
 
-p {
+body { }
+
+.container { margin: 100%;
+	padding: 25%;
+
+}
+
+p { font:  ;
 	
 
 }
 
+footer{  }
 
 
+#circle_1 { 
+width:  ;
+height:  ;
+
+}
+
+#circle_2
 
 
