@@ -27,11 +27,14 @@ footer{  }
 
 
 #circle_1 { 
-width:  ;
-height:  ;
-
+border-radius: 50%;
+width: 400px;
+height: 400px;
 }
 
-#circle_2
+#circle_2 {
+border-radius: 50%;
+width: 400px;
+height: 400px;}
 
 
