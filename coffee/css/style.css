@@ -1,7 +1,73 @@
 <style>
 
+/*this is the hex code for the specific brown: #230b03; */
+
+
+body { 
+
+	display: block;
+
+
+}
+
+
+header { 
+	
+	display: block;
+
+}
+
+header.hero {
+
+
+}
+
+header#headerimage {
+
+
+}
+
+nav {
+
+
+}
+
+nav, ul, li {
+
+
+}
+
+section { 
+	
+	display: block;
+
+}
 
 
 
+h1 { 
+	font: Impact, 4em;
+	color: white;
+}
+
+
+h2 { 
+	font: Helvetica, sans-serif, 1.5em;
+	color: #230b03;
+}
+
+p {
+ display: block;
+ font: Times, serif, 1em;
+ color: #230b03;
+}
+
+
+footer { 
+
+	display: inline;
+
+
+}
 
 </style>
