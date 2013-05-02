@@ -1,0 +1,17 @@
+<style>
+
+body, header, section, aside, {
+
+	display: block;
+}
+
+#navlist li{
+
+	display: inline;
+	list-style-type: none;
+	padding: 25px;
+	margin: auto 20px auto 120px;
+}
+
+
+</style>
