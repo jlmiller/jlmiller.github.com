@@ -11,8 +11,6 @@ body {
 }
 .container { 
 	display: block;
-	width: 1024px;
-	height: 720px;
 
 
 
@@ -24,29 +22,65 @@ header {
 
 }
 
-header.hero {
+.hero {
+	display: block;
 
 
 }
 
-header#headerimage { 
+#logoimage {
+
 	display: block;
-	position: ;
+	position: absolute; ;
+}
+
+#headerimage { 
+	display: block;
+	
 	 
 
 
 }
 
-nav.navblock { 
-	display: inline-block;
-	background-color: #230b03; 
+
+#headertext {
+	display: block;
+	text-align: justify;
+	line-height: 1.5em;
+	position: absolute;
 
 
 }
 
-nav.navlist { 
+nav.navblock { 
+
+	display: block;
+	background-color: #301905; 
+
+
+}
+
+a {
+	text-decoration: none;
+	color: #cab07f;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#navlist li{
+
+	display: inline;
+	list-style-type: none;
+	padding: 25px;
+	margin: auto 20px auto 120px;
+}
+
+#navitem li{ 
 	font-family: Times, serif; 
-	color: #d4b374; 
+	color: #cab07f; 
 
 
 
@@ -55,8 +89,13 @@ nav.navlist {
 
 section { 
 	
-	display: block;
+	display: inline-block;
 
+}
+
+.maincontent {
+
+	display: inline-block;
 }
 
 
@@ -78,15 +117,29 @@ p {
  display: block;
  font-family: Times, serif;
  font-size: 1em;
+ line-height: 1.5em;
  color: #230b03;
 }
 
 
 footer { 
 
+	display: block;
+	background-color: #301905;
+	padding: 25px 25px 25px 400px;
+
+
+
+}
+#footertxt {
+
 	display: inline;
+	text-align: justify;
+	color: #cab07f; 
+}
 
-
+address {
+	text-decoration: none;
 }
 
 </style>
