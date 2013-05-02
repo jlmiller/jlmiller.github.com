@@ -5,12 +5,72 @@ body, header, section, aside, {
 	display: block;
 }
 
+header#header {
+	border-bottom: 1px #8a8a8a;
+	width: auto;
+	height: 107px;
+
+}
+
+#bloglogo {
+
+	display: inline-block;
+	position: fixed;
+
+}
+
+a {
+	text-decoration: none; 
+}
+
+.nav {
+	display: inline;
+	position: fixed;
+	margin: 55px auto 1000px 500px;
+	padding: 10px all;
+
+}
+
 #navlist li{
 
 	display: inline;
 	list-style-type: none;
-	padding: 25px;
-	margin: auto 20px auto 120px;
+	padding: 10px;
+	margin: auto;
+}
+
+
+aside, #navitem, footer{
+	font-family: Helvetica, sans-serif;
+	font-style: bold;
+	font-size: 1em;  
+	color: black;
+
+
+}
+
+aside {
+
+	display: block;
+	width: 308px;
+	position: fixed;
+	margin: 20px 20px;
+}
+
+aside ul {
+	list-style-type: none;
+}
+
+aside.popularlinks {
+	line-height: 2em;
+	
+}
+
+article {
+	 display: block;
+	 width: 400px;
+	 height: 300px;
+	  
 }
 
 

@@ -7,25 +7,29 @@
 	</head> 
 
 	<body>
-		<header>
+		<header id="header">
 			<!--Title-->
-			<a href="index.html"><img src="images/blog-logo.png" alt="Super Blog"><a href="index.html"></a>
-<!--This is the navigation for the blog.-->			
+			<div id="bloglogo"><a href="index.html"><img src="images/blog-logo.png" alt="Super Blog"><a href="index.html"></a>
+			</div>
+<!--This is the navigation for the blog.-->	
+	<span class="nav">		
 		<nav>
 			<ul id="navlist"> 
-			<li><a href="about.html">about</a></li> 
-			<li><a href="archives.html">archives</a></li>
-			<li><a href="#firstrealday">first real post</a></li>
-			<li><a href="#mostpopularpost">popular topic</a></li>
-			<li><a href="contact.html">contact</a></li>
+			<li id="navitem"><a href="about.html">about</a></li> 
+			<li id="navitem"><a href="archives.html">archives</a></li>
+			<li id="navitem"><a href="#firstrealday">first real post</a></li>
+			<li id="navitem"><a href="#mostpopularpost">popular topic</a></li>
+			<li id="navitem"><a href="contact.html">contact</a></li>
 
 			</ul>
 		</nav>
+	</span>
 		</header>
 
 <!--These are the current articles for the blog.-->
-	<aside>
-	<ol>	
+	
+	<aside class="popularlinks">
+	<ul>	
 	<li>The quick, brown fox jumps over a lazy dog.</li>
 	<li>Jolt my wax bed </li>
 	<li>A very bad quack jinx zippy fowls</li>
@@ -37,10 +41,10 @@
 	<li>most popular post</li>
 	<li>Quick brown dogs jump over the lazy fox</li>
 	<li>Blowzy red vixens fight</li>
-	</ol>
-	</aside>
+	</ul>
+	</div>
 
-<section>
+<section class="posts">
 <!--This is the main content of the page.-->
 
 	<article>
