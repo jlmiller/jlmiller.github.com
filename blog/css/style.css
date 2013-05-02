@@ -6,9 +6,10 @@ body, header, section, aside, {
 }
 
 header#header {
-	border-bottom: 1px #8a8a8a;
+	border-bottom-style: solid;
+	border-bottom: 2px black;
 	width: auto;
-	height: 107px;
+	height: 108px;
 
 }
 
@@ -19,14 +20,19 @@ header#header {
 
 }
 
-a {
+a, a:visited {
 	text-decoration: none; 
+	color: #black;
+}
+
+a:active {
+	color: yellow;
 }
 
 .nav {
 	display: inline;
 	position: fixed;
-	margin: 55px auto 1000px 500px;
+	margin: 55px auto 1000px 700px;
 	padding: 10px all;
 
 }
@@ -42,7 +48,6 @@ a {
 
 aside, #navitem, footer{
 	font-family: Helvetica, sans-serif;
-	font-style: bold;
 	font-size: 1em;  
 	color: black;
 
@@ -53,8 +58,8 @@ aside {
 
 	display: block;
 	width: 308px;
-	position: fixed;
 	margin: 20px 20px;
+
 }
 
 aside ul {
@@ -62,16 +67,39 @@ aside ul {
 }
 
 aside.popularlinks {
+	line-height: 1em;
+	float: left;
+}
+
+.asideitem {
+
 	line-height: 2em;
-	
+}
+
+h2.date {
+	font-family: Helvetica; 
+	font-size: .5em;
+	line-height: .5em;
+}
+
+h2 {
+
+	font-family: 'BenchNine', sans-serif;
+
 }
 
 article {
 	 display: block;
-	 width: 400px;
-	 height: 300px;
+	 width: 800px;
 	  
 }
 
+section.posts {
+
+	display: block;
+	float: left;
+	overflow: scroll;
+	
+}
 
 </style>
