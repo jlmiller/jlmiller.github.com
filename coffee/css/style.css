@@ -36,6 +36,8 @@ header {
 
 #headerimage { 
 	display: block;
+	float: both;
+	background-image: no-repeat src ('images/beans.jpg')
 	
 	 
 
