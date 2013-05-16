@@ -1,7 +1,10 @@
-<style>
+
 
 /*this is the hex code for the specific brown: #230b03; */
 
+* {
+	box-sizing: border-box;
+}
 
 body { 
 
@@ -11,6 +14,8 @@ body {
 }
 .container { 
 	display: block;
+	height: 100%;
+	width: 1024px ;
 
 
 
@@ -19,6 +24,7 @@ body {
 header { 
 	
 	display: block;
+	width: 1024px;
 
 }
 
@@ -31,16 +37,18 @@ header {
 #logoimage {
 
 	display: block;
-	position: absolute; ;
+	position: absolute;
+	margin: 10px auto auto 443px;
+
 }
 
 #headerimage { 
 	display: block;
 	float: both;
-	background-image: no-repeat src ('images/beans.jpg')
+	background-image: no-repeat src ('images/beans.jpg');
+	z-index: 1;
 	
-	 
-
+	
 
 }
 
@@ -57,7 +65,11 @@ header {
 nav.navblock { 
 
 	display: block;
+	position: relative;
 	background-color: #301905; 
+	width: 100%;
+	height: 5%;
+	padding-top: 0.1%;
 
 
 }
@@ -65,19 +77,25 @@ nav.navblock {
 a {
 	text-decoration: none;
 	color: #cab07f;
+	font-size: 1.25em;
 }
 
 a:hover {
 	color: white;
 	text-decoration: none;
 }
+ul#navlist {
+
+	margin: auto 10% auto 33%;
+	padding: 1%
+}
 
 #navlist li{
 
 	display: inline;
 	list-style-type: none;
-	padding: 25px;
-	margin: auto 20px auto 120px;
+	padding: 2.5%;
+
 }
 
 #navitem li{ 
@@ -89,15 +107,29 @@ a:hover {
 
 }
 
+div#contentspan {
+
+	width: 1024px;
+	height: 388px;
+	float: left;
+}
+
 section { 
 	
 	display: inline-block;
+	width: 1024px; 
 
 }
 
-.maincontent {
+section.maincontent {
 
+	position: relative;
 	display: inline-block;
+	min-height: 388px;
+	float: left;
+	width: 35%;
+	padding: 25% all;
+
 }
 
 
@@ -126,9 +158,9 @@ p {
 
 footer { 
 
-	display: block;
+	display: inline-block;
 	background-color: #301905;
-	padding: 25px 25px 25px 400px;
+	width: 1024px;
 
 
 
@@ -143,5 +175,6 @@ footer {
 address {
 	text-decoration: none;
 }
+/**Media Queries**/
 
-</style>
+
