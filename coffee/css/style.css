@@ -128,7 +128,8 @@ section.maincontent {
 	min-height: 388px;
 	float: left;
 	width: 35%;
-	padding: 25% all;
+	margin-left: 110px;
+
 
 }
 
@@ -161,6 +162,7 @@ footer {
 	display: inline-block;
 	background-color: #301905;
 	width: 1024px;
+	height: 44px;
 
 
 
@@ -169,12 +171,12 @@ footer {
 
 	display: inline;
 	text-align: justify;
-	color: #cab07f; 
+	color: #cab07f;
+	margin: auto 10% auto 25%;
+	padding: 1% 
+
 }
 
-address {
-	text-decoration: none;
-}
 /**Media Queries**/
 
 
